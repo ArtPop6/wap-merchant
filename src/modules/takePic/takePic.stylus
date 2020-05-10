@@ -1,0 +1,152 @@
+.personal-trainer
+  background #fafafc
+  height 100%
+  display flex
+  flex-direction column
+
+  .student-info__wrap
+    display flex
+    width 100%
+    padding 33px 33px 28px 33px
+    justify-content space-between
+    border-bottom 1px solid #ebebeb
+    align-items flex-start
+    background: #fff
+
+    .class-desc
+      display flex
+      flex-direction column
+      //justify-content space-between
+
+      .class-name__desc
+        display flex
+        margin-bottom 20px
+
+        .class-name__title
+          font-weight bold
+          margin-right 10px
+
+      .class-time__desc
+        display flex
+
+        .class-time__title
+          font-weight bold
+          margin-right 10px
+
+    .member-desc
+      display flex
+      align-items center
+      justify-content flex-start
+
+      .member-title
+        font-weight bold
+        margin-right 10px
+
+  .class-proccess
+    flex 1
+    overflow auto
+
+    .class-plan__wrap
+      margin-bottom 30px
+      padding 36px 30px 0 30px
+
+      .class-plan
+        font-weight bold
+        margin-bottom 15px
+
+      .van-uploader
+        .van-uploader__wrapper
+          .van-uploader__preview
+            margin-right 18px
+
+            .van-uploader__preview-delete
+              font-size 38px
+
+          .van-uploader__upload
+            width 110px
+            height 110px
+            border 1px solid #ebebeb
+            margin-bottom 15px
+
+            .van-icon
+              font-size 36px
+
+      .van-cell
+        font-size 26px
+        padding 15px 15px 20px 15px
+        -webkit-border-radius 16px
+        -moz-border-radius 16px
+        border-radius 16px
+        border 1px solid #ebebeb
+
+        .van-field__body
+          .van-field__control
+            line-height 35px
+
+        .van-field__word-limit
+          font-size 22px
+
+    .class-summary__wrap
+      padding 36px 30px
+
+      .class-summary
+        font-weight bold
+        margin-bottom 15px
+
+      .van-uploader
+        .van-uploader__wrapper
+          .van-uploader__preview
+            margin-right 18px
+
+            .van-uploader__preview-delete
+              font-size 38px
+
+          .van-uploader__upload
+            width 110px
+            height 110px
+            border 1px solid #ebebeb
+            margin-bottom 15px
+
+            .van-icon
+              font-size 36px
+
+      .van-cell
+        font-size 26px
+        padding 15px 15px 20px 15px
+        -webkit-border-radius 16px
+        -moz-border-radius 16px
+        border-radius 16px
+        border 1px solid #ebebeb
+
+        .van-field__body
+          .van-field__control
+            line-height 35px
+
+        .van-field__word-limit
+          font-size 22px
+
+  .button-group
+    width 100%
+    height 85px
+    line-height 85px
+    text-align center
+    display flex
+
+    .confirm-button
+      width 50%
+      height 100%
+      background: #fff
+      color #666
+      font-size 29px
+
+    .van-button
+      height 100%
+      background #1890ff;
+      color #fff
+      font-size 29px
+
+    .absent
+      width 100%
+
+    .noabsent
+      width 50%

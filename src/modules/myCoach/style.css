@@ -1,0 +1,382 @@
+.student-wrap {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+.student-wrap .coach-info {
+  padding: 36px 0 10px 36px;
+  height: 165px;
+}
+.student-wrap .coach-info .coach-name {
+  font-size: 40px;
+  font-weight: bold;
+}
+.student-wrap .coach-info .greet-word {
+  color: #666;
+  font-size: 28px;
+}
+.student-wrap .barbell {
+  width: 211px;
+  height: 160px;
+  position: absolute;
+  right: 0;
+  top: 80px;
+}
+.student-wrap .date-pick__current {
+  height: 58px;
+  padding: 0 36px;
+  font-size: 30px;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 16px;
+}
+.student-wrap .date-pick__current .date-pick__year {
+  font-size: 57px;
+  font-weight: 550;
+  margin-right: 7px;
+  height: 66px;
+}
+.student-wrap .date-pick__current .date-pick__month {
+  font-size: 40px;
+  font-weight: 550;
+  margin-right: 7px;
+  height: 49px;
+}
+.student-wrap .date-pick__current .date-pick__date {
+  font-size: 40px;
+  font-weight: 550;
+  margin-right: 7px;
+  height: 49px;
+}
+.student-wrap .date-pick__current .date-pick__title {
+  font-size: 28px;
+  margin-right: 7px;
+  height: 36px;
+}
+.student-wrap .date-pick__smallwrap {
+  width: 750px;
+  height: 200px;
+  border-bottom: 1px solid #ebebeb;
+}
+.student-wrap .date-pick__smallwrap .date-pick__wrap {
+  border-top: 1px solid #eee;
+  height: 200px;
+  display: flex;
+  padding: 15px 0;
+  width: 2250px;
+}
+.student-wrap .date-pick__smallwrap .date-pick__wrap .date-pick {
+  display: flex;
+  width: 750px;
+  align-items: center;
+}
+.student-wrap .date-pick__smallwrap .date-pick__wrap .date-pick .date-pick__threeweeks {
+  display: flex;
+  width: 100px;
+  flex-shrink: 0;
+  flex-direction: column;
+  margin-right: 6px;
+  align-items: center;
+  position: relative;
+}
+.student-wrap .date-pick__smallwrap .date-pick__wrap .date-pick .date-pick__threeweeks .week-day {
+  text-align: center;
+  font-size: 28px;
+}
+.student-wrap .date-pick__smallwrap .date-pick__wrap .date-pick .date-pick__threeweeks .today-week {
+  color: #69f;
+  font-weight: 800;
+}
+.student-wrap .date-pick__smallwrap .date-pick__wrap .date-pick .date-pick__threeweeks .date {
+  font-size: 22px;
+  text-align: center;
+  color: #999;
+  margin-top: 16px;
+  width: 76px;
+  height: 76px;
+  border-radius: 100%;
+  line-height: 76px;
+}
+.student-wrap .date-pick__smallwrap .date-pick__wrap .date-pick .date-pick__threeweeks .today-date {
+  background: #69f;
+  color: #fff;
+  font-weight: bold;
+}
+.student-wrap .date-pick__smallwrap .date-pick__wrap .date-pick .date-pick__threeweeks .default-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: #69f;
+  position: absolute;
+  top: 115px;
+  right: 43px;
+}
+.student-wrap .date-pick__smallwrap .date-pick__wrap .date-pick .date-pick__threeweeks .dot-today {
+  background: #fff;
+}
+.student-wrap .course-info__wrap::-webkit-scrollbar {
+  display: none;
+}
+.student-wrap .course-info__wrap {
+  padding: 20px 20px 0 20px;
+  background: #fafafc;
+  flex: 1;
+  overflow: auto;
+}
+.student-wrap .course-info__wrap .course-date {
+  width: 100%;
+  background: #fff;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.1);
+}
+.student-wrap .course-info__wrap .course-date .course-store {
+  height: 68px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+  background: #f3f3f3;
+  padding: 10px 0 10px 15px;
+}
+.student-wrap .course-info__wrap .course-date .course-store .store-name {
+  font-size: 28px;
+  line-height: 48px;
+  font-weight: bold;
+}
+.student-wrap .course-info__wrap .course-date .course-store .hole {
+  width: 200px;
+  display: flex;
+}
+.student-wrap .course-info__wrap .course-date .course-store .hole .hole-one {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background: #fff;
+  margin-right: 36px;
+}
+.student-wrap .course-info__wrap .course-date .course-date__class {
+  display: flex;
+  justify-content: space-between;
+  height: 196px;
+  padding: 49px 26px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.student-wrap .course-info__wrap .course-date .course-date__class .course-seat {
+  display: flex;
+}
+.student-wrap .course-info__wrap .course-date .course-date__class .course-seat .avatar {
+  width: 98px;
+  height: 98px;
+  border-radius: 100%;
+  border: 1px solid #ebebeb;
+  margin-right: 15px;
+}
+.student-wrap .course-info__wrap .course-date .course-date__class .course-seat .course-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.student-wrap .course-info__wrap .course-date .course-date__class .course-seat .course-desc .name-gender {
+  font-weight: bold;
+  font-size: 32px;
+  display: flex;
+  width: 315px;
+  overflow: hidden;
+  margin-bottom: 5px;
+  align-items: center;
+}
+.student-wrap .course-info__wrap .course-date .course-date__class .course-seat .course-desc .name-gender .user-name {
+  max-width: 272px;
+  overflow: hidden;
+  margin-right: 10px;
+  white-space: nowrap;
+}
+.student-wrap .course-info__wrap .course-date .course-date__class .course-seat .course-desc .name-gender .gender {
+  width: 33px;
+  height: 33px;
+}
+.student-wrap .course-info__wrap .course-date .course-date__class .course-seat .course-desc .price-person {
+  display: flex;
+  width: 315px;
+  justify-content: space-between;
+}
+.student-wrap
+  .course-info__wrap
+  .course-date
+  .course-date__class
+  .course-seat
+  .course-desc
+  .price-person
+  .course-price {
+  color: #69f;
+  font-size: 29px;
+}
+.student-wrap
+  .course-info__wrap
+  .course-date
+  .course-date__class
+  .course-seat
+  .course-desc
+  .price-person
+  .course-person {
+  color: #999;
+  font-size: 27px;
+}
+.student-wrap .course-info__wrap .course-date .course-date__class .course-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.student-wrap .course-info__wrap .course-date .course-date__class .course-right .student-list {
+  width: 130px;
+  height: 50px;
+  border-radius: 52px;
+  background: #69f;
+  color: #fff;
+  font-size: 25px;
+  line-height: 50px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.student-wrap .course-info__wrap .course-date .course-date__class .course-right .course-time {
+  color: #666;
+  font-size: 26px;
+}
+.student-wrap .no-data {
+  flex: 1;
+  width: 100%;
+}
+.student-wrap .no-data .no-data__content {
+  width: 100%;
+  height: 210px;
+  margin-top: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.student-wrap .no-data .no-data__content .no-data__context {
+  color: #666;
+  font-size: 32px;
+  font-weight: bold;
+}
+.student-wrap .no-data .no-data__content .no-data__pic {
+  width: 118px;
+  height: 118px;
+  animation: broken 1.5s;
+  background: url('./img/broken.png') no-repeat center;
+  background-size: 118px 118px;
+  -webkit-animation: broken 1.2s;
+}
+@-moz-keyframes broken {
+  0% {
+    background: url('./img/hearts.png') no-repeat center;
+    background-size: 118px 118px;
+    opacity: 0;
+  }
+  30% {
+    background: url('./img/hearts.png') no-repeat center;
+    background-size: 118px 118px;
+    opacity: 0.8;
+  }
+  60% {
+    opacity: 0.3;
+    background: url('./img/broken.png') no-repeat center;
+    background-size: 118px 118px;
+  }
+  80% {
+    opacity: 0.8;
+    background: url('./img/broken.png') no-repeat center;
+    background-size: 118px 118px;
+  }
+  100% {
+    opacity: 1;
+    background: url('./img/broken.png') no-repeat center;
+    background-size: 118px 118px;
+  }
+}
+@-webkit-keyframes broken {
+  0% {
+    background: url('./img/hearts.png') no-repeat center;
+    background-size: 118px 118px;
+    opacity: 0;
+  }
+  30% {
+    background: url('./img/hearts.png') no-repeat center;
+    background-size: 118px 118px;
+    opacity: 0.8;
+  }
+  60% {
+    opacity: 0.3;
+    background: url('./img/broken.png') no-repeat center;
+    background-size: 118px 118px;
+  }
+  80% {
+    opacity: 0.8;
+    background: url('./img/broken.png') no-repeat center;
+    background-size: 118px 118px;
+  }
+  100% {
+    opacity: 1;
+    background: url('./img/broken.png') no-repeat center;
+    background-size: 118px 118px;
+  }
+}
+@-o-keyframes broken {
+  0% {
+    background: url('./img/hearts.png') no-repeat center;
+    background-size: 118px 118px;
+    opacity: 0;
+  }
+  30% {
+    background: url('./img/hearts.png') no-repeat center;
+    background-size: 118px 118px;
+    opacity: 0.8;
+  }
+  60% {
+    opacity: 0.3;
+    background: url('./img/broken.png') no-repeat center;
+    background-size: 118px 118px;
+  }
+  80% {
+    opacity: 0.8;
+    background: url('./img/broken.png') no-repeat center;
+    background-size: 118px 118px;
+  }
+  100% {
+    opacity: 1;
+    background: url('./img/broken.png') no-repeat center;
+    background-size: 118px 118px;
+  }
+}
+@keyframes broken {
+  0% {
+    background: url('./img/hearts.png') no-repeat center;
+    background-size: 118px 118px;
+    opacity: 0;
+  }
+  30% {
+    background: url('./img/hearts.png') no-repeat center;
+    background-size: 118px 118px;
+    opacity: 0.8;
+  }
+  60% {
+    opacity: 0.3;
+    background: url('./img/broken.png') no-repeat center;
+    background-size: 118px 118px;
+  }
+  80% {
+    opacity: 0.8;
+    background: url('./img/broken.png') no-repeat center;
+    background-size: 118px 118px;
+  }
+  100% {
+    opacity: 1;
+    background: url('./img/broken.png') no-repeat center;
+    background-size: 118px 118px;
+  }
+}
